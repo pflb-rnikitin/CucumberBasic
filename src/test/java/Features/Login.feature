@@ -7,7 +7,7 @@ Feature: LoginFeature
     And I enter the following authentication credentials
       | username  | password    |
       | v.m.varga | Tasmania008 |
-    And I click login button
+    When I click login button
     Then I should see the inbox page
 
   Scenario Outline: Login with correct username and password using scenario outline
