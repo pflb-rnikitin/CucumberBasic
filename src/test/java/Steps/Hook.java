@@ -14,7 +14,7 @@ public class Hook extends BaseUtil{
     }
     @Before
     public void setUp(){
-        System.out.println("Opening the browser");
+        System.out.println("Opening the browser: MOCK");
         base.stepInfo = "chromedriver";
     }
 
@@ -24,7 +24,7 @@ public class Hook extends BaseUtil{
         if (scenario.isFailed()){
             System.out.println(scenario.getName() + "has failed");
         }
-        System.out.println("Closing the browser");
+        System.out.println("Closing the browser: MOCK");
     }
 }
 

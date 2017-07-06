@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/yandexsearch.iml" filepath="$PROJECT_DIR$/yandexsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CucumberBasics.iml" filepath="$PROJECT_DIR$/CucumberBasics.iml" />
     </modules>
   </component>
 </project>

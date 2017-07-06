@@ -10,4 +10,3 @@ Feature: YaLoginFeature
     Examples:
       | username  | password    |
       | v.m.varga | Tasmania008 |
-      | wrongname | wrongpass   |
